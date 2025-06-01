@@ -1,0 +1,84 @@
+/* Reset & base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fff;
+  font-family: 'Helvetica Neue', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Login container */
+.login-container {
+  width: 350px;
+  padding: 40px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+  text-align: center;
+}
+
+/* Logo styles */
+.logo {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #000;
+}
+
+.logo span {
+  font-size: 1rem;
+  letter-spacing: 1.5px;
+  color: #444;
+}
+
+/* Form styles */
+.login-form input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 30px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 14px;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.login-form button:hover {
+  background-color: #444;
+}
+
+/* Options (links) */
+.options {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.options a {
+  color: #000;
+  text-decoration: none;
+}
+
+.options a:hover {
+  text-decoration: underline;
+}
